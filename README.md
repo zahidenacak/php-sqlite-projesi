@@ -20,18 +20,3 @@ Veritabanında **6 sanat akımı** altında her birinden **20 farklı sanatçıy
 * **Eser Ekleme ve Kayıt Kontrolü:** Form aracılığıyla koleksiyona yeni eser eklenebilir. Sistem, büyük/küçük harf duyarlılığı olmaksızın aynı akım, ressam, orijinal eser adı ve yıl bilgisine sahip kayıtların tekrar eklenmesini engeller.
 * **Güncelleme ve Silme:** Mevcut eserlerin bilgileri düzenlenebilir veya onay mekanizmasıyla veritabanından silinebilir.
 * **Otomatik Veritabanı Kurulumu:** Veritabanı dosyası veya tablo mevcut değilse ilk çalıştırmada otomatik olarak oluşturulur ve örnek veriler yüklenir.
-
-## Kullanılan Teknolojiler
-
-* **Backend:** PHP 8+ (PDO SQLite sürücüsü)
-* **Veritabanı:** SQLite (`sanat_akimlari.db`)
-* **Frontend:** HTML5, CSS3 (Responsive Grid ve Tablo Tasarımı)
-
-## Dosya Yapısı
-
-```text
-├── .gitignore          # Git takibi dışında bırakılacak geçici dosya kuralları
-├── baglanti.php        # SQLite veritabanı bağlantısını (PDO) sağlayan dosya
-├── index.php           # Arayüz, filtreleme ve CRUD işlemlerini yürüten ana dosya
-├── sanat_akimlari.db   # Eser kayıtlarının tutulduğu SQLite veritabanı dosyası
-└── README.md           # Proje dokümantasyonu
