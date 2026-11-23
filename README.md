@@ -1,6 +1,6 @@
 # Sanat Akımları Kataloğu (PHP & SQLite)
 
-Bu proje, PHP ve SQLite (PDO) kullanılarak geliştirilmiş web tabanlı bir sanat eserleri kataloglama ve yönetim uygulamasıdır. Uygulama; sanat tarihindeki altı temel akıma ait seçkin eserlerin dönemlerine göre sınıflandırılmasını, görüntülenmesini ve veritabanı üzerinden yönetilmesini sağlar.
+Bu proje, PHP ve SQLite kullanılarak geliştirilmiş web tabanlı bir sanat eserleri kataloglama ve yönetim uygulamasıdır. Uygulama; sanat tarihindeki altı temel akıma ait seçkin eserlerin dönemlerine göre sınıflandırılmasını, görüntülenmesini ve veritabanı üzerinden yönetilmesini sağlar.
 
 ## Projenin Amacı ve Kapsamı
 
