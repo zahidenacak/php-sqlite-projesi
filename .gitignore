@@ -1,0 +1,18 @@
+# SQLite geçici işlem dosyaları (ana .db dosyası depoya eklenir)
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+
+# VS Code ve editör ayarları
+.vscode/
+.idea/
+
+# İşletim sistemi gereksiz dosyaları
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Ortam ve log dosyaları
+.env
+*.log
